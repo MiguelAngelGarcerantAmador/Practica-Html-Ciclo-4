@@ -1,0 +1,20 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 90px 20px 0; /* espaciado 90px de arriba, 20px de los lados y 0 de abajo   */
+}
+.header {
+  background-color: crimson;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
